@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  height: 400px;
+  margin: 70px auto;
+  background-color: #1b244a;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.screen {
+  background-color: black;
+  width: 150px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #f94f6d;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 20px;
+}
+
+.point {
+  border: 2px solid #9aabd8;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #9aabd8;
+  cursor: pointer;
+}
+
+#reset-btn {
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  background: darkred;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.glow {
+  box-shadow: 0 0 15px 5px rgb(244, 233, 85);
+}

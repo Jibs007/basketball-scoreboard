@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div id="home">
+        <h1>HOME</h1>
+        <div class="screen" id="home-screen">
+          <h2 id="home-score">0</h2>
+        </div>
+        <div class="btns">
+          <div class="point" onclick="add1home()">+1</div>
+          <div class="point" onclick="add2home()">+2</div>
+          <div class="point" onclick="add3home()">+3</div>
+        </div>
+      </div>
+
+      <div id="away">
+        <h1>AWAY</h1>
+        <div class="screen" id="away-screen">
+          <h2 id="away-score">0</h2>
+        </div>
+        <div class="btns">
+          <div class="point" onclick="add1away()">+1</div>
+          <div class="point" onclick="add2away()">+2</div>
+          <div class="point" onclick="add3away()">+3</div>
+        </div>
+      </div>
+      <button id="reset-btn" onclick="reset()">RESET</button>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
