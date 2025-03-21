@@ -62,7 +62,7 @@ function reset() {
     home = 0
     away = 0
     homeScore.textContent = 0
-    awayScore.textContent = away
+    awayScore.textContent = 0
     winningTeam()
 }
 
